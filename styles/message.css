@@ -1,0 +1,11 @@
+.message{
+
+    width: 370px;
+    height: 100px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    display: none;
+    
+}

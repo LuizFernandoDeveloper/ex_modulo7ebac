@@ -1,0 +1,17 @@
+.container{
+    
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    border-radius: 30px;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+
+}
+
+.container h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
