@@ -28,7 +28,7 @@ form.addEventListener('submit', function(e){
     }
     
 
-    console.log("rodando");
+   
     const timerOfMessage = setTimeout(clearMessage, 2000);
     function clearMessage(){
 
@@ -38,7 +38,7 @@ form.addEventListener('submit', function(e){
         numberTwo.value = '';
     
     }
-    console.log("saiu");
+   
 
     
     
