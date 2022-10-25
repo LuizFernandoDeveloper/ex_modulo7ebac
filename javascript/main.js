@@ -27,9 +27,8 @@ form.addEventListener('submit', function(e){
     
     }
     
-
-   
     const timerOfMessage = setTimeout(clearMessage, 2000);
+
     function clearMessage(){
 
         message.style.display = 'none';
