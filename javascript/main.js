@@ -4,7 +4,7 @@ const form = document.getElementById('formOne');
 
 
 form.addEventListener('submit', function(e){
-    alert('fsdfs')
+  
     e.preventDefault();
     const numberOne = document.getElementById('numberA');
     const numberTwo = document.getElementById('numberB');
@@ -26,10 +26,17 @@ form.addEventListener('submit', function(e){
 
     
     }
-    while((message.value == messageSuccess ) || (message.value == messageError)){
+    
 
-        console.log("rodando");
-        const timerOfMessage = setTimeout(clearMessage, 1000);
+    console.log("rodando");
+    const timerOfMessage = setTimeout(clearMessage, 2000);
+    function clearMessage(){
+
+        message.style.display = 'none';
+        message.innerHTML = '';
+        numberOne.value = '';
+        numberTwo.value = '';
+    
     }
     console.log("saiu");
 
@@ -38,12 +45,3 @@ form.addEventListener('submit', function(e){
 
 });
 
-function clearMessage(){
-
-    message.style.display = 'none';
-    message.innerHTML = '';
-    numberOne.value = '';
-    numberTwo.value = '';
-
-
-}
