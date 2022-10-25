@@ -1,11 +1,15 @@
 .message{
 
     width: 370px;
-    height: 100px;
+    height: 80px;
     background-color: aliceblue;
     margin: auto;
     margin-top: 20px;
     border-radius: 30px;
     display: none;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: auto;
     
 }
